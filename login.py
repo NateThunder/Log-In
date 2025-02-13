@@ -19,7 +19,7 @@ while n!=0:
     if inuser == user and inpassword == password:
         print("That is the correct Credential. You now have access to your account")
         print(f"Welcome to your account {user}")
-        n=n+2
+        n=4
     elif n>0:
         print(f"Wrong credentials, you have {n} more attempts ")
     if n == 0: 
