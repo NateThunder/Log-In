@@ -12,14 +12,12 @@ n=3
 
 while n!=0:
     n=n-1
-    if n ==3:
-        break
     inuser = input("What is the your user name?: ")
     inpassword = input("What is your password?: ")
     if inuser == user and inpassword == password:
         print("That is the correct Credential. You now have access to your account")
         print(f"Welcome to your account {user}")
-        n=4
+        break
     elif n>0:
         print(f"Wrong credentials, you have {n} more attempts ")
     if n == 0: 
