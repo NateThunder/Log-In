@@ -16,7 +16,7 @@ while n!=0:
     inpassword = input("What is your password?: ")
     if inuser == user and inpassword == password:
         print("That is the correct Credential. You now have access to your account")
-        print(f"Welcome to your account {user}")
+        print(f"Welcome to your account {user.capitalize()}")
         break
     elif n>0:
         print(f"Wrong credentials, you have {n} more attempts ")
